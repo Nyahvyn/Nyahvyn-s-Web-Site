@@ -146,6 +146,7 @@ section {
     section {
         margin: 40px 0;
     }
+}
 
 img.need_inversion {
     filter: invert(var(--inversion));
