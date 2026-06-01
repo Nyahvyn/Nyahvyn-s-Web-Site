@@ -182,3 +182,17 @@ img.need_inversion {
 .right-group a:hover::after {
     width: 100%;
 }
+
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.shown {
+    opacity: 1;
+    transform: translateY(0);
+}
