@@ -142,6 +142,11 @@ section {
     margin: 80px 0;
 }
 
+@media (max-width: 600px) {
+    section {
+        margin: 40px 0;
+    }
+
 img.need_inversion {
     filter: invert(var(--inversion));
 }
@@ -155,7 +160,6 @@ img.need_inversion {
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin-top: 20px;
     margin: 20px auto 0;
 }
 
