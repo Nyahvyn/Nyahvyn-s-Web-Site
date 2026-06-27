@@ -48,6 +48,7 @@ footer {
 
 .right-group {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -208,7 +209,7 @@ button {
     background: transparent; 
     border: 2px solid white; 
     color: var(--buttonColor);            
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 8px;      
     cursor: pointer;
 }
