@@ -2,12 +2,14 @@
     --bg: #e0e0e0;
     --txt: #3d3d3d;
     --inversion: 0;
+    --buttonColor: #3d3d3d;
 }
 
 .dark {
     --bg: #292929;
     --txt: #d6d6d6;
     --inversion: 1;
+    --buttonColor: #d6d6d6;
 }
 
 html {
@@ -202,3 +204,11 @@ img.need_inversion {
     transform: translateY(0);
 }
     
+button {
+    background: transparent; 
+    border: 2px solid white; 
+    color: var(--buttonColor);            
+    padding: 10px 20px;
+    border-radius: 8px;      
+    cursor: pointer;
+}
