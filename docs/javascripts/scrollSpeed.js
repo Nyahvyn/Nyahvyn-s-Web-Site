@@ -5,6 +5,6 @@ const clone = items.cloneNode(true);
 loop.appendChild(clone);
 
 document.documentElement.style.setProperty(
-    "--loop-width",
+    "--scrollSpeed",
     `${width}px`
 );
