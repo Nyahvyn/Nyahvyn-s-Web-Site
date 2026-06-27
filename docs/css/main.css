@@ -3,6 +3,7 @@
     --txt: #3d3d3d;
     --inversion: 0;
     --buttonColor: #3d3d3d;
+    --scrollSpeed: 0;
 }
 
 .dark {
@@ -114,7 +115,7 @@ img.big {
     }
 
     to {
-        transform: translateX(-60%);
+        transform: translateX(-1 * var(--scrollSpeed));
     }
 }
 
